@@ -5,6 +5,7 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 	int number;
@@ -12,7 +13,7 @@ int main(void)
 	{
 		putchar((number % 10) + '0');
 		if (number == 9)
-		continue;		
+		continue;	
 		putchar(',');
 		putchar(' ');
 	}
