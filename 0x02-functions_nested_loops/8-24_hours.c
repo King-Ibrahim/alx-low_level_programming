@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - This function prints every minute of a 24 hour day, 
+ * jack_bauer - This function prints every minute of a 24 hour day,
  * h = hour, m = minutes
  * / 10 allows second digit to rotate
  * for loop breaks before passing 24:00
