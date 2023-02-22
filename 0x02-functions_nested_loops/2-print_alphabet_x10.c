@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print alphabet_10x - creates a function that prints the alphabet 10 times.
  *
- * Return: Always 0.
+ * Return:a-z 10x
  */
 int main(void)
 {	
@@ -20,6 +20,5 @@ int main(void)
 		count++;
 		_putchar('\n');
 	}
-    print_alphabet_x10();
     return (0);
 }
