@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<main.h>
 /**
  *Main: prints _putchar
  *Return: Always 0
