@@ -1,5 +1,5 @@
 #include "main.h"
-	
+
 /**
  * times_table -  This function prints the 9 times table from 0
  * row = row, col = column, n = digits of current result
