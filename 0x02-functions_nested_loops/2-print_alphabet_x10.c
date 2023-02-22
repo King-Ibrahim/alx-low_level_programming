@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print alphabet - creates a function that prints the alphabet in lower case
- *
+ * 10 x alphabet - creates a function that prints the alphabet in lower case
  * Return:a-z 10x
+ *
  */
+
 int main(void)
 {	
 	int n, count;
