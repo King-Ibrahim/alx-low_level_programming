@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  *
  */
- 
+
 int main(void)
 {
 	int i;
@@ -19,11 +19,11 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-        if (i % 3 == 0)
+        	if (i % 3 == 0)
 			printf("%s ", fizz);
-        else if (i % 5 == 0)
+        	else if (i % 5 == 0)
 			printf("%s ", buzz);
-        else if ((i % 3 == 0) && (i % 5 == 0))
+        	else if ((i % 3 == 0) && (i % 5 == 0))
 			printf("%s ", fizzbuzz);
 		else
 			printf("%d ", i);
