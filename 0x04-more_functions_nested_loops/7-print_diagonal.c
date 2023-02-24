@@ -6,7 +6,7 @@
  * Return: a diagonal
  *
  */
- 
+
 void print_diagonal(int n)
 {
 	int i, m;
@@ -19,7 +19,7 @@ void print_diagonal(int n)
 	{
 		for (i = 1; i <= n; i++)
 		{
-			for (m = 1; m < i; m++)
+			for (m = 1; m < i-1; m++)
 			{
 				_putchar(' ');
 			}
@@ -27,5 +27,4 @@ void print_diagonal(int n)
 			_putchar('\n');
 		}
 	}
-}
-_putchar('\n');
+};
