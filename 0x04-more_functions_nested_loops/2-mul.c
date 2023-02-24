@@ -7,7 +7,7 @@
  * Return: returns product of the two inputs
  *
  */
- 
+
 int mul(int a, int b)
 {
 	return (a * b);

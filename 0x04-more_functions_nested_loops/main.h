@@ -2,7 +2,7 @@
  #define main_h
  
 #include<unistd.h>
-#include<stdio.h>
+
  int _putchar(char);
  int main(void);
  int _isupper(int c);
@@ -16,5 +16,5 @@
  void print_square(int size); 
  void print_triangle(int size);
  void print_number(int n);
- 
+ int numDigits(int n);
  #endif

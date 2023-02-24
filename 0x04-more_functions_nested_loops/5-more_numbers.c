@@ -5,7 +5,7 @@
  * Return: returns the numbers 0-14 and multiplied by 10 followed by a new line
  *
  */
- 
+
 void more_numbers(void)
 {
 	int i, j;

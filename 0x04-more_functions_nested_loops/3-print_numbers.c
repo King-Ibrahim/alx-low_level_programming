@@ -5,7 +5,7 @@
  * Return: A single digit followed by a new line
  *
  */
- 
+
 void print_numbers(void)
 {
 	int i;

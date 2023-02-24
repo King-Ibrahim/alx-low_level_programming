@@ -5,7 +5,7 @@
  * Return: returns 0-9, with the exception of 2 and 4 followed by new a  line
  *
  */
- 
+
 void print_most_numbers(void)
 {
 	int i;
