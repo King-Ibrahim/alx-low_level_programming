@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_square - This function prints a square followed by a new line
+ * print_square - This function prints
+ * a square followed by a new line
+ * Description: prints a square
  * @size: size determines the width and length
- * Return: returns a square consisting of '#'
+ * Return: void
  *
  */
  
@@ -19,7 +21,6 @@ void print_square(int size)
 	{
 		for (i = 1; i <= size; i++)
 		{
-			_putchar('#');
 			for (j = 2; j <= size; j++)
 			{
 				_putchar('#');
