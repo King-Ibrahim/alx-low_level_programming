@@ -3,7 +3,7 @@
 /**
  * print_diagonal -  This function draws a diagonal line
  * @n: This is the length of the line in '\'
- * Return: a diagonal
+ * Return: void
  *
  */
 
