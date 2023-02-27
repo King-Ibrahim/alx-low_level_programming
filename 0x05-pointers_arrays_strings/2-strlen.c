@@ -9,7 +9,7 @@
 
 int _strlen(char *s)
 {
-	int i = 1, 
+	int i = 1; 
 	int length = 0;
 	
 	char letter = s[0];
