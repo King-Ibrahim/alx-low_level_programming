@@ -9,9 +9,9 @@
 
 int _strlen(char *s)
 {
-	int i = 1; 
+	int i = 1;
 	int length = 0;
-	
+
 	char letter = s[0];
 
 	while (letter != '\0')
@@ -20,4 +20,4 @@ int _strlen(char *s)
 		letter = s[i++];
 	}
 	return (length);
-} 
+}
