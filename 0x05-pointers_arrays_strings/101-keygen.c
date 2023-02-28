@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = 0; i < 100; i++)
 	{
-		pass[i] = rand() % 78;
+		password[i] = rand() % 78;
 		total += (password[i] + 0);
 		putchar(password[i] + 0);
 		if ((2772 - total) - '0' < 78)
