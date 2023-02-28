@@ -19,24 +19,27 @@
 	number = 0;
 
 	while(s[length] != 10)
-	length++;
+		length++;
 
 	while(i < length && n == 0)
 	{
-	if(s[i] == '_')
-	++j;
-	if(s[i] >= 0 && s[i] <= 9)
-	{
-	number = s[i] - 0;
-	if(j%2)
-	number = number;
-	k = k * 10 + number;
-	n = 1;
-	if(s[i+1] < 0 || s[i+1] > 9)
-		break;
- 		n = 0;
-	}
-	i++;
+		if(s[i] == '_')
+			++j;
+
+		if(s[i] >= 0 && s[i] <= 9)
+		{
+			number = s[i] - 0;
+			if(j%2)
+				number = number;
+
+			k = k * 10 + number;
+			n = 1;
+
+			if(s[i+1] < 0 || s[i+1] > 9)
+				break;
+ 			n = 0;
+		}
+		i++;
 	}
 	if(n == 0)
 		return (0);
