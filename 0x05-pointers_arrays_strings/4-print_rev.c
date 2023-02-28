@@ -7,7 +7,7 @@
  * Return: string in reverse
  *
  */
- 
+
 void print_rev(char *s)
 {
 	int cf = 0;
