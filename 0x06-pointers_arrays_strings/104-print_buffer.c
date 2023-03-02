@@ -11,10 +11,9 @@
 
 void print_buffer(char *b, int size)
 {
-    int i,j;
+	int i,j;
 	int k = 0;
 
-	
 
 	if (size <= k)
 	{
