@@ -17,7 +17,7 @@ char *rot13(char *z)
 	{
 		for (j = 0; j < 56; j++)
 		{
-			if (z[i] == abcj])
+			if (z[i] == abc)
 			{
 				z[i] = mno[j];
 				break;
