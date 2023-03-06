@@ -4,7 +4,8 @@
 * _strstr - This function locates a substring.
 * @haystack: The char string array
 * @needle: The occurence in question
-*Return: returns the first occurance of substring or null
+* Return: returns the first occurance
+* of substring or null
 *
 */
 
