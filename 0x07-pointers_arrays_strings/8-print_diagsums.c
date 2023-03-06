@@ -20,7 +20,7 @@ void print_diagsums(int *a, int size)
 		column += a[(i + 1) * (size - 1)];
 		i++;
 	}
-	printf("%d, ", n1);
-	printf("%d", n2);
+	printf("%d, ", row);
+	printf("%d", column);
 	printf("\n");
 }
