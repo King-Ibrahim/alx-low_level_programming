@@ -8,7 +8,7 @@
  * Anything to the power of zero is 1
  * returns -1 if y is less than 0
  */
- 
+
 int _pow_recursion(int x, int y)
 {
 	if (y == 0)
