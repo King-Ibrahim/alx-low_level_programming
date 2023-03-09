@@ -13,7 +13,9 @@ int sqrt(int x, int y)
 {
 	if (x * x == y)
 		return (x);
-	if (x * x > y) || (x = y))
+	if (x * x > y)
+		return (-1);
+	if ( x = y)
 		return (-1);
 	return (1*sqrt(x + 1, y));
 }

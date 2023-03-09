@@ -7,7 +7,7 @@
  * Return: return 1.
  *
  */
- 
+
 int primenum(int x, int y)
 {
 	if (x == y)
@@ -23,7 +23,7 @@ int primenum(int x, int y)
  * Return: return 1 if number is prime number.
  *
  */
- 
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
