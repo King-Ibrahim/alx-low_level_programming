@@ -17,7 +17,7 @@ int isnumber(char *c)
 	
 	while (i < length)
 	{
-		if (a[i] < '0' || c[i] > '9')
+		if (c[i] < '0' || c[i] > '9')
 		{
 			return (-1);
 		}
