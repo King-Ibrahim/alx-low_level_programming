@@ -45,11 +45,11 @@ void op_f(va_list format)
  *
  */
 
-void op_s(va_list form)
+void op_s(va_list format)
 {
 	char *str;
 
-	str = va_arg(form, char *);
+	str = va_arg(format, char *);
 	if (str == NULL)
 	{
 		printf("(nil)");
