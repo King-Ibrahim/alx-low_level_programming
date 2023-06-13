@@ -11,7 +11,7 @@
  
 char **strtow(char *str)
 {
-	int i, x, y, j, k, count, m, wordf;
+	int i, x, y, j, count, m, wordf;
 	char **p;
 	char *z;
 
@@ -26,7 +26,7 @@ char **strtow(char *str)
 		if (str[i] == ' ' && (str[i + 1] != ' ' || str[i + 1] == '\0'))
 			x++;
 	}
-	p = (char **)malloc((w + 1) * sizeof(char *));
+	p = (char **)malloc((x + 1) * sizeof(char *));
 	if (p == NULL)
 		return (NULL);
 	for (wordf = 0; str[wordf] && j <= x; wordf++)
