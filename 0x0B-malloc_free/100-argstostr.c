@@ -14,7 +14,7 @@ char *argstostr(int ac, char **av)
 {
 	int size = 0;
 	int counter, counter1, counter2 = 0;
-	char *ptr;
+	char *ptr = NULL;
 
 	for (counter = 0; counter < ac; counter++)
 	{
