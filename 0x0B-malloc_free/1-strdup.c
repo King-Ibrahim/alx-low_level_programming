@@ -6,7 +6,7 @@
  * _strdup - Entry point
  *@str: string to be duplicated
  * Return: returns a pointer to the duplicated string or returns NULL
- * 
+ *
  */
 char *_strdup(char *str)
 {

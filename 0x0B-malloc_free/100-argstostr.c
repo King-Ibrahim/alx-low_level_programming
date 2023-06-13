@@ -43,8 +43,7 @@ char *argstostr(int ac, char **av)
 	}
 	ptr[counter2] = '\0';
 	return (ptr);
-	
-		if (ac == 0 || av == NULL)
-            return (NULL);
-	
+
+	if (ac == 0 || av == NULL)
+		return (NULL);
 }

@@ -4,9 +4,10 @@
 
 /**
  * str_concat - The entry point
- *@s1: 1st string 
- *@s2: 2nd string 
- * Return: pointer should point to a newly allocated space in memory or return NULL
+ *@s1: 1st string
+ *@s2: 2nd string
+ * Return: pointer should point to a newly
+ * allocated space in memory or return NULL
  *
  */
 char *str_concat(char *s1, char *s2)
