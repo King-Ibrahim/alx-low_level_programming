@@ -54,6 +54,6 @@ int main(int argc, char *argv[])
 	if (elf[0] != 'E')
 		exit(98);
 
-	close(foldd);
+	close(fold);
 	return (0);
 }
